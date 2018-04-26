@@ -1,0 +1,42 @@
+{
+  "name": "Manticore-SDK",
+  "version": "0.2.7",
+  "description": "Manticore JavaScript SDK and API client",
+  "homepage": "https://github.com/coinfield/MAP-SDK",
+  "bugs": {
+    "url": "https://github.com/coinfield/MAP-SDK/issues"
+  },
+  "license": "LGPL-3.0",
+  "author": {
+      "name": "Reza Bashash",
+      "email": "bashash@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Reza Bashash",
+      "email": "bashash@gmail.com"
+    }
+  ],
+  "files": [
+    "src"
+  ],
+  "main": "src/sdk.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coinfield/MAP-SDK.git"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --recursive"
+  },
+  "browser": {
+    "fs": false
+  },
+  "dependencies": {
+    "superagent": "3.5.2"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3",
+    "expect.js": "~0.3.1"
+  }
+}

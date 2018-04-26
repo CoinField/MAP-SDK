@@ -1,0 +1,7 @@
+{
+  "projectName": "manticore-sdk",
+  "sortParamsByRequiredFlag": "true",
+  "ensureUniqueParams": "true",
+  "supportsES6": "true",
+  "npmName": "manticore-sdk"
+}
