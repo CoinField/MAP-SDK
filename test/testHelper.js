@@ -1,7 +1,7 @@
 const superagent = require('superagent')
 const ManticoreSDK = require('../src/sdk')
 
-const manticoreHost = process.env.PEATIO_URL || 'http://localhost:8000'
+const manticoreHost = process.env.MANTICORE_URL || 'http://localhost:8000'
 
 module.exports = {
   ManticoreSDK,

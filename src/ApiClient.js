@@ -444,22 +444,22 @@
     }
 
 
-    request.end(function(error, response) {
-      if (callback) {
-        var data = null;
-        if (!error) {
-          try {
-            data = _this.deserialize(response, returnType);
-            if (_this.enableCookies && typeof window === 'undefined'){
-              _this.agent.saveCookies(response);
-            }
-          } catch (err) {
-            error = err;
-          }
-        }
-        callback(error, data, response);
-      }
-    });
+    // request.end(function(error, response) {
+    //   if (callback) {
+    //     var data = null;
+    //     if (!error) {
+    //       try {
+    //         data = _this.deserialize(response, returnType);
+    //         if (_this.enableCookies && typeof window === 'undefined'){
+    //           _this.agent.saveCookies(response);
+    //         }
+    //       } catch (err) {
+    //         error = err;
+    //       }
+    //     }
+    //     callback(error, data, response);
+    //   }
+    // });
 
     return request;
   };
