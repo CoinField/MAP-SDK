@@ -126,7 +126,7 @@
       };
 
       var authNames = ['jwt'];
-      var contentTypes = ['application/json', 'application/x-www-form-urlencoded'];
+      var contentTypes = ['application/x-www-form-urlencoded'];
       var accepts = ['application/json'];
       var returnType = null;
 
